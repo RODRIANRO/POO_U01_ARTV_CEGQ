@@ -11,21 +11,21 @@ package com.mycompany.animal;
 public class PrincipalHerencia {
      public static void main(String [] args){
     
-        var gatoMama = new Gato();
+      var gatoMama = new Gato(7,4);
+        
         gatoMama.setColor("plomo");
         gatoMama.setNombre("Mishi");
         gatoMama.setRaza("Mestizo");
+        gatoMama.setPropietario("Mauricio");
         gatoMama.setYearNacimiento(2017);
-        gatoMama.setPropietario("Angel");
-        gatoMama.setNumeroAccidentesFatales(3);
-        gatoMama.setNumeroVidas(9);
+        
         
         System.out.println(gatoMama.getNombre());
         System.out.println(gatoMama.calcularVidasRestantes());
-         System.out.println(gatoMama.getPropietario);
+        System.out.println(gatoMama.getPropietario());
+        
         
         
     }
-}
-    
+} 
 

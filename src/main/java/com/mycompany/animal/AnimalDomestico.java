@@ -9,6 +9,21 @@ package com.mycompany.animal;
  * @author NOTEBOOK
  */
 public class AnimalDomestico extends Animal {
+    private String propietario;
+
+    
+    
+    //Getters & Setters
+    
+    public String getPropietario() {
+        return propietario;
+    }
+
+    public void setPropietario(String propietario) {
+        this.propietario = propietario;
+    }
     
     
 }
+    
+

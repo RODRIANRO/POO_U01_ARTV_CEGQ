@@ -11,11 +11,16 @@ package com.mycompany.animal;
 public class Gato extends AnimalDomestico{
    
     
-    private int numeroVidas;
+  private int numeroVidas;
     private int numeroAccidentesFatales;
     
-    //constructor
-    public Gato(int nV, int nAP){
+    //Constructores
+    
+    
+    public Gato(int numeroVidas,int numeroAccidentesFatales){
+      this.numeroVidas=numeroVidas;
+      this.numeroAccidentesFatales = numeroAccidentesFatales;
+      
     
     }
     
@@ -42,7 +47,7 @@ public class Gato extends AnimalDomestico{
         this.numeroAccidentesFatales = numeroAccidentesFatales;
     }
     
-    
+       
 }
     
 
